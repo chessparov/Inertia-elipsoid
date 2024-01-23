@@ -1,0 +1,6 @@
+---- All OS's -----
+
+numpy
+matplotlib.pyplot
+mpl_toolkits.mplot3d
+itertools
