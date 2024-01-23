@@ -105,6 +105,10 @@ def pltElipsoid(tensor: np.ndarray):
     ax.set_ylabel(r'$y$')
     ax.set_zlabel(r'$z$')
 
-    ax.set_box_aspect((np.ptp(X), np.ptp(Y), np.ptp(Z)))
+    RATIO = round(np.max([np.max(X), np.max(Y), np.max(Z)]))
+    # ax.set_box_aspect((RATIO, RATIO, RATIO))
+    ax.set_xlim(-RATIO, RATIO)
+    ax.set_ylim(-RATIO, RATIO)
+    ax.set_zlim(-RATIO, RATIO)
 
     plt.show()
