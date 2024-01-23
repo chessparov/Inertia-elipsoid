@@ -8,7 +8,7 @@ where $A$, $B$, $C$, $D$, $E$ and $F$ are the components of the tensor Matrix.
 
 ## How to run
 
-After downloading the necessary files follow this [guide](chessparov/blob/main/python-setup.md) on how to install python and all the necessary packages.
+After downloading the necessary files follow this [guide](https://github.com/chessparov/chessparov/blob/main/python-setup.md) on how to install python and all the necessary packages.
 
 In the ``Inertia.py`` file are stored all the necessary functions, while the Jupyter Notebook is setup in order to offer an environment where to input data and visualize the output.
 
